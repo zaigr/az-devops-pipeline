@@ -111,6 +111,7 @@ namespace Production.Api
 
         private IEdmModel GetEdmModel()
         {
+            // comment
             var odataBuilder = new ODataConventionModelBuilder();
             odataBuilder.EntitySet<Product>("Products");
 
